@@ -13,14 +13,14 @@ jobs:
         run: |
           echo "Hello World!"
 
-  hello_world_job:
+  current_time_job:
     runs-on: ubuntu-18.04
     steps:
       - name: Now it is
         run: |
           date
 
-  hello_world_job:
+  directory_content_job:
     runs-on: ubuntu-18.04
     steps:
       - name: Directory Content
